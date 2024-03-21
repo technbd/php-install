@@ -48,10 +48,20 @@ sudo apt -y install php5.6
 ```
 
 
+```
+apt list --installed | grep php
+```
+
+
 You can use the "update-alternatives" command to set the default PHP version.
 
 ```
 sudo update-alternatives --config php
+```
+
+
+```
+ll /etc/apache2/mods-*/*php*
 ```
 
 
