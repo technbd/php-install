@@ -40,6 +40,10 @@ systemctl status httpd
 ```
 
 
+```
+grep "mod_proxy" /etc/httpd/conf.modules.d/00-proxy.conf
+```
+
 
 ### Run Docker Containers: 
 ```
