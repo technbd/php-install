@@ -80,7 +80,11 @@ FLUSH PRIVILEGES;
 
 ```
 sudo apt update
+
+### Must be install for phpMyAdmin:
 sudo apt install -y php7.4-mysql php7.4-mbstring php7.4-gd php7.4-xml php7.4-curl -y
+sudo apt install -y php8.2-mysql php8.2-mbstring php8.2-gd php8.2-xml php8.2-curl -y
+
 sudo apt install -y phpmyadmin libapache2-mod-php
 ```
 
